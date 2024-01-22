@@ -1,0 +1,82 @@
+
+body {
+    background-color: rgb(149, 61, 231);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+div {
+    color: black;
+}
+
+#grid {
+    color: blue;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 60px 60px 60px 60px;
+    
+}
+
+.cell {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    
+}
+.med {font-size: 1.4rem;}
+
+#black {background-color: #bc7fee;}
+h6 {
+    font-size: 1.4rem;
+}
+@media(max-width: 600px){
+    body{
+        background-color: rgb(151, 63, 223);
+    }
+
+    h1{
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+        
+
+    }
+
+    p{
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+
+    }
+}
+
+@media(min-width: 601px) and (max-width: 1024px){
+    h1{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1024px){
+    body{
+        background-color: rgb(152, 47, 221);
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
